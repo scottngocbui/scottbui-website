@@ -15,7 +15,7 @@ const contact = () => {
               <h4>Email</h4>
             </article>
           </a>
-          <a href="www.linkedin.com/in/scottngocbui">
+          <a href="https://www.linkedin.com/in/scottngocbui" target='_blank'>
             <article className="contact_option">
               <SiLinkedin className='contact_option-icons'/>
               <h4>LinkedIn</h4>
