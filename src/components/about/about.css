@@ -31,34 +31,42 @@
 }
 
 .about_card {
-    background: var(--color-bg);
-    border: 1px solid transparent;
     border-radius: 2rem;
     padding: 2rem;
     text-align: center;
+    background: var(--color-bg);
+    color: var(--color-white);
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
 }
 
 .about_card:hover {
     background: var(--color-bg);
-    border-color: var(--color-primary-varient);
+    border-color: var(--color-white);
+    cursor: default;
     transition: var(--transition);
-    cursor: pointer;
 }
 
 .about_icon {
-    color: var(--color-primary-varient);
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    color: var(--color-primary);
 }
 
 .about_card h5 {
     font-size: 0.95rem;
 }
 
+.about_content {
+    text-align: center;
+}
+
 .about_content p {
     padding: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: left;
 }
+
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
@@ -71,9 +79,14 @@
         width: 50%;
         margin: 2rem auto 4rem;
     }
+    
+    .about_content {
+        text-align: center;
+    }
 
     .about_content p {
         margin: 1rem 0 1.5rem;
+        text-align: left;
     }
 }
 

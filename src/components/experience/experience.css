@@ -8,7 +8,7 @@
     background: var(--color-bg);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
 
@@ -29,14 +29,17 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
+
 .experience_details {
     display:flex;
     gap: 1rem;
 }
+
 .experience_details-icons {
     margin-top: 6px;
     color:var(--color-primary)
 }
+
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
@@ -52,6 +55,7 @@
 
     .experience_content {
         padding: 1rem;
+
     }
 }
 
@@ -59,5 +63,10 @@
 @media screen and (max-width: 600px) {
     .experience_container {
         gap: 1rem;
+    }
+
+    .experience_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
     }
 }

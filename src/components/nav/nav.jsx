@@ -6,9 +6,11 @@ import {AiFillCheckCircle} from 'react-icons/ai'
 import {FaSuitcase} from 'react-icons/fa'
 import {RiContactsBook2Fill} from 'react-icons/ri'
 import {useState} from 'react'
+import { useEffect } from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
+
   return (
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><FaHome /></a>

@@ -20,13 +20,17 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className='about_card'>
-              <AiFillCheckCircle className='about_icon'/>
-              <h5>Experience</h5>
+              <a href='#experience'>
+                <AiFillCheckCircle className='about_icon'/>
+                <h5>Experience</h5>
+              </a>
             </article>
 
             <article className='about_card'>
+              <a href='#portfolio'>
               <FaSuitcase className='about_icon'/>
               <h5>Portfolio</h5>
+              </a>
             </article>
           </div>
 

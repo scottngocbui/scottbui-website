@@ -15,20 +15,21 @@ nav {
 }
 
 nav a{
-    background: transparent;
+    background: var(--color-primary);
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: rgb(0, 0, 0);
+    color: var(--color-bg);
     font-size: 1.1rem;
 }
 
 nav a:hover {
-    background: rgb(0, 0, 0, 0.3);
+    background: white;
+    color:var(--color-bg);
 }
 
 nav a.active, nav a.current {
-    background: var(--color-bg);
+    background: var(--color-light);
     color: var(--color-white);
 }
 
