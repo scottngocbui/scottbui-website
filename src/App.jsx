@@ -4,6 +4,7 @@ import {BiLogoLinkedin} from 'react-icons/bi'
 import {FaFigma, FaBirthdayCake} from 'react-icons/fa'
 import {IoLocationOutline} from 'react-icons/io5'
 import {MdOutlineEmail} from 'react-icons/md'
+import {ImMobile} from 'react-icons/im'
 import Me from './assets/me1.png'
 
 const App = () => {
@@ -78,10 +79,34 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className='bg-rblack col-span-4 md:col-end-9 lg:col-end-13 lg:col-span-8 md:-mt-[625px] h-screen rounded-[16px]'>
-          <div className='flex flex-col p-10 md:p-20'>
-            <div className='flex font-semibold text-5xl mb-16 justify-center'>About Me</div>
-            <div className='text-xl'>My name is Scott and I am a self-taught Front-end Web Developer/Designer from Philadelphia, Pennsylvania. My interest in web development stemmed from my involvement in Web3 and I am looking to improve and hone my skills to  </div>
+        <div className='bg-rblack col-span-4 md:col-end-9 lg:col-end-13 lg:col-span-8 md:-mt-[625px] min-h-full rounded-[16px]'>
+          <div className='flex flex-col p-10 lg:p-20'>
+            <div className='flex font-semibold text-5xl mb-16 justify-left'>About Me</div>
+            <div className='text-xl'>My name is Scott and I am a self-taught Front-End Developer/Designer from Philadelphia, PA. My interest in web development stemmed from my involvement in Web3 and I am looking to improve and hone my skills to create meaningful and impactful components that will benefit the Web3 Space and Community. </div>
+            <div className='flex font-semibold text-5xl mt-16 mb-16 justify-left'>Skills</div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 px-8'>
+              <div className='flex flex-row md:p-4 p-8 border-2 rounded-lg mr-8 bg-gray'>
+                <span className='pr-4 text-rblack'><ImMobile size='40'/></span>
+                <div>
+                  <div className='text-2xl text-white'>Mobile Responsive Design</div>
+                  <div className='text-md'>I can design and code mobile responsive website for desktop, tablet, and mobile devices.</div>
+                </div>
+              </div>
+              <div className='flex flex-row md:p-4 p-8 border-2 rounded-lg mr-8 mt-8 lg:mt-0 bg-gray'>
+                <span className='pr-4 text-rblack'><ImMobile size='40'/></span>
+                <div>
+                  <div className='text-2xl text-white'>Mobile Responsive Design</div>
+                  <div className='text-md'>I can design and code mobile responsive website for desktop, tablet, and mobile devices.</div>
+                </div>
+              </div>
+              <div className='flex flex-row md:p-4 p-8 border-2 rounded-lg mr-8 mt-8 bg-gray'>
+                <span className='pr-4 text-rblack'><ImMobile size='40'/></span>
+                <div>
+                  <div className='text-2xl text-white'>Mobile Responsive Design</div>
+                  <div className='text-md'>I can design and code mobile responsive website for desktop, tablet, and mobile devices.</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
