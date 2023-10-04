@@ -19,7 +19,9 @@ module.exports = {
       blue: '#BDD4E7',
       rblack: '#212227',
       dgray: '#637074'
-      
+    },
+    fontFamily: {
+      'poppins': ['Poppins', 'sans-serif']
     },
     extend: {
       backgroundImage: {

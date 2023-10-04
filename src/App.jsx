@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsPersonVcard, BsCardChecklist, BsFolder, BsChatLeftText, BsGithub, BsPhone, BsDownload} from 'react-icons/bs'
+import {BsPersonVcard, BsFolder, BsChatLeftText, BsGithub, BsPhone, BsDownload} from 'react-icons/bs'
 import {BiLogoLinkedin} from 'react-icons/bi'
 import {FaFigma, FaBirthdayCake} from 'react-icons/fa'
 import {IoLocationOutline} from 'react-icons/io5'
@@ -8,13 +8,13 @@ import Me from './assets/me1.png'
 
 const App = () => {
   return (
-    <div className='bg-mamba bg-dgray text-pblue'>
-      <div className='grid grid-cols-12 gap-[20px] mx-[70px]'>
+    <div className='bg-mamba bg-dgray text-pblue font-poppins'>
+      <div className='grid grid-cols-4 mx-[20px] md:grid-cols-8 lg:grid-cols-12 gap-[20px] md:mx-[70px]'>
         <div className='bg-rblack col-span-4 h-[775px] rounded-[16px] mt-20'>
           <div className='flex flex-col items-center'>
             <img src={Me} alt='Me' className='w-[200px] -mt-[50px] bg-gray rounded-lg'/>
             <div className='text-5xl my-2'>Scott Bui</div>
-            <div className='text-2xl bg-gray my-2 p-2 rounded-lg'>Front-End Web Developer / Designer</div>
+            <div className='text-2xl bg-gray my-2 p-2 rounded-lg'>Front-End Developer</div>
             <div className='flex flex-row my-2'>
               <div className='mx-2 p-2 bg-gray rounded-lg'><BiLogoLinkedin size='20'/></div>
               <div className='mx-2 p-2 bg-gray rounded-lg'><BsGithub size='20'/></div>
@@ -62,15 +62,11 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className='flex bg-rblack col-end-13 col-span-5 h-[150px] rounded-[16px] mt-20 justify-center items-center'>
+        <div className='flex bg-rblack col-span-4 md:col-end-9 lg:col-end-13 lg:col-span-5 h-[150px] rounded-[16px] md:mt-20 justify-center items-center'>
           <div className='flex flex-row justify-center'>
             <div className='bg-blue flex flex-col items-center justify-center w-[100px] py-2 mx-2 border-2 rounded-lg'>
               <span className=''><BsPersonVcard size="40"/></span>
               <span className="relative">About Me</span>
-            </div>
-            <div className='flex flex-col items-center justify-center w-[100px] py-2 mx-2 border-2 rounded-lg'>
-              <span className=''><BsCardChecklist size="40"/></span>
-              <span className="relative">Skills</span>
             </div>
             <div className='flex flex-col items-center justify-center w-[100px] py-2 mx-2 border-2 rounded-lg'>
               <span className=''><BsFolder size="40"/></span>
@@ -82,7 +78,11 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className='bg-rblack col-end-13 col-span-8 -mt-[625px] h-screen rounded-[16px]'>
+        <div className='bg-rblack col-span-4 md:col-end-9 lg:col-end-13 lg:col-span-8 md:-mt-[625px] h-screen rounded-[16px]'>
+          <div className='flex flex-col p-10 md:p-20'>
+            <div className='flex font-semibold text-5xl mb-16 justify-center'>About Me</div>
+            <div className='text-xl'>My name is Scott and I am a self-taught Front-end Web Developer/Designer from Philadelphia, Pennsylvania. My interest in web development stemmed from my involvement in Web3 and I am looking to improve and hone my skills to  </div>
+          </div>
         </div>
       </div>
     </div>
