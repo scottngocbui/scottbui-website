@@ -12,10 +12,20 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       black: '#000000',
-      'white': '#ffffff',
-      'red': '#CC0000',
+      white: '#ffffff',
+      red: '#CC0000',
+      pblue: '#AAB9CF',
+      gray: '#545763',
+      blue: '#BDD4E7',
+      rblack: '#212227',
+      dgray: '#637074'
+      
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mamba': "url('./assets/black-mamba.png')"
+      }
+    },
   },
   plugins: [],
 }

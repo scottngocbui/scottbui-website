@@ -8,11 +8,10 @@ const Navbar = () => {
               ScottBui.Dev
             </div>
             <ul className='hidden text-xl md:flex md:flex-row'>
-              <li className='px-8 py-4'>Hero</li>
               <li className='px-8 py-4'>About Me</li>
               <li className='px-8 py-4'>Skills</li>
               <li className='px-8 py-4'>Projects</li>
-              <li className='px-8 py-4'>Contact Me</li>
+              <li className='px-8 py-4'>Contacts</li>
             </ul>
         </div>
     </section>
