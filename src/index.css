@@ -11,4 +11,23 @@
 
 /* Start General Styles */
 @layer base{
+    .active{
+      @apply bg-blue text-gray shadow-inner;
+    }
+
+    .hover{
+      @apply hover:bg-blue hover:text-gray 
+    }
+
+    .inactive{
+      @apply shadow-lg
+    }
+
+    .btn {
+      @apply flex flex-col items-center justify-center w-[100px] py-2 mx-2 border-2 rounded-lg
+    }
+
+    .error {
+      @apply text-white bg-red mt-2 rounded-lg p-2
+    }
   }

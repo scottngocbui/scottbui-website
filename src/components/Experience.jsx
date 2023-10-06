@@ -10,14 +10,14 @@ const Experience = () => {
         Projects
       </div>
       <div className='flex flex-col justify-center items-center text-center lg:justify-start lg:items-start lg:text-left lg:flex-row p-4 lg:p-8 border-2 rounded-lg bg-gray'>
-        <img src={SkyeGee} className='w-[200px] h-[200px] rounded-lg mb-4 lg:mr-8' />
+        <img src={SkyeGee} alt='SkyeGee PFP' className='w-[200px] h-[200px] rounded-lg mb-4 lg:mr-8' />
         <div className='bg-rblack border rounded-lg p-4'>
           <div className='text-2xl text-white mb-4'>SkyeGee.eth</div>
           <div className='pb-4'>Website for my Web3 Persona</div>
           <div className='pb-4'>Started with a Figma Design and then turned the Figma Design into a fully functioning Website.</div>
           <div className='flex flex-row justify-center lg:justify-start gap-4 mb-4'>
-            <div className='p-2 bg-gray rounded-lg cursor-pointer hover:bg-blue hover:text-gray transition ease'><FaFigma size='20'/></div>
-            <div className='p-2 bg-gray rounded-lg cursor-pointer hover:bg-blue hover:text-gray transition ease'><BsGithub size='20'/></div>
+            <a href="https://github.com/SkyeGeeDev/skyegee-website" target='_blank' rel='noopener noreferrer' className='p-2 bg-gray rounded-lg cursor-pointer hover:bg-blue hover:text-gray transition ease'><BsGithub size='20'/></a>
+            <a href="https://www.figma.com/file/mJc1F8YyC1o4cVUYcmp6ho/SkyeGee.eth?type=design&node-id=1%3A3&mode=design&t=GBnlCboEW29wXd88-1" target='_blank' rel='noopener noreferrer' className='p-2 bg-gray rounded-lg cursor-pointer hover:bg-blue hover:text-gray transition ease'><FaFigma size='20'/></a>
           </div>
         </div>
         <div>

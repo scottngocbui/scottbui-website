@@ -1,4 +1,4 @@
-import React, { useRef }from 'react'
+import React from 'react'
 import { Formik, Form, useField} from 'formik'
 import * as Yup from 'yup';
 import emailjs from '@emailjs/browser'
@@ -40,7 +40,6 @@ const ContactMe = () => {
           initialValues={{
             name: '',
             email: '',
-            inquiry: '',
             message: ''
           }}
           validationSchema={Yup.object({
@@ -54,7 +53,7 @@ const ContactMe = () => {
           })}
           onSubmit={(values, actions) => {
             try {
-              emailjs.send(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, values, process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
+              emailjs.send('service_2snvt7w', 'template_ae5py8k', values, 'FGQukGB0HlsTJriNM')
                 .then(() => {
                   toast.success(`Thank you for your submission ${values.name}! I will reach back out to you shortly.`)
                   actions.setSubmitting(false);
@@ -68,7 +67,7 @@ const ContactMe = () => {
             }
           }
         >
-          <div className='flex flex-col text-center-4 p-8 border-2 justify-center rounded-lg bg-gray'>
+          <div className='flex flex-col text-center-4 p-8 border-2 justify-center rounded-lg bg-gray text-black'>
             <Form>
               <MyTextInput
                 label=''
@@ -91,9 +90,9 @@ const ContactMe = () => {
                 placeholder='Please tell me a little about yourself!'
               />
 
-              <button className='bg-rblack rounded-lg p-4' type='submit'>Submit</button>
+              <button className='text-blue bg-rblack rounded-lg p-4' type='submit'>Submit</button>
             </Form>
-            </div>
+          </div>
         </Formik>
       </div>
   )
