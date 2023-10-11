@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/scottbui-website/static/css/main.661c14fb.css",
+    "main.js": "/scottbui-website/static/js/main.015745b1.js",
+    "static/media/Skye BG.png": "/scottbui-website/static/media/Skye BG.e67339c03566cf526682.png",
+    "static/media/me1.png": "/scottbui-website/static/media/me1.50b760d1e5f4ba0c5533.png",
+    "static/media/Scott Bui Resume.pdf": "/scottbui-website/static/media/Scott Bui Resume.9dc6c122b73b5224e60e.pdf",
+    "index.html": "/scottbui-website/index.html",
+    "main.661c14fb.css.map": "/scottbui-website/static/css/main.661c14fb.css.map",
+    "main.015745b1.js.map": "/scottbui-website/static/js/main.015745b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.661c14fb.css",
+    "static/js/main.015745b1.js"
+  ]
+}
