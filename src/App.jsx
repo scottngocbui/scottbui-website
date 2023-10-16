@@ -8,7 +8,7 @@ import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
 import ContactMe from './components/ContactMe'
 import Me from './assets/me1.png'
-import Resume from './assets/Scott Bui Resume.pdf'
+import Resume from './assets/Scott Bui Resume.docx.pdf'
 import { Toaster } from 'react-hot-toast'
 import './index.js'
 
