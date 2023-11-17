@@ -1,15 +1,16 @@
 import React, {useState} from 'react'
-import {BsPersonVcard, BsFolder, BsChatLeftText, BsPhone, BsDownload} from 'react-icons/bs'
+import {BsPersonVcard, BsFolder, BsChatLeftText, BsGithub, BsPhone, BsDownload} from 'react-icons/bs'
+import {BiLogoLinkedin} from 'react-icons/bi'
 import {FaBirthdayCake} from 'react-icons/fa'
 import {IoLocationOutline} from 'react-icons/io5'
 import {MdOutlineEmail} from 'react-icons/md'
 import AboutMe from '../components/AboutMe'
 import Experience from '../components/Experience'
 import ContactMe from '../components/ContactMe'
-import Skye from '../assets/Skye BG.png'
+import Me from '../assets/me1.png'
 import Resume from '../assets/Scott Bui Resume.pdf'
 
-const SkyeGee = () => {
+const ScottBui = () => {
   const [activeTab, setActiveTab] = useState('about');
 
   const handleTab1 = () => {
@@ -23,32 +24,37 @@ const SkyeGee = () => {
   const handleTab3 = () => {
     setActiveTab("contact");
   }
+
   return (
-    <div className='grid grid-cols-4 mx-[20px] md:grid-cols-8 lg:grid-cols-12 gap-[20px] md:mx-[70px] pt-20'>
+    <div className='grid grid-cols-4 mx-[20px] md:grid-cols-8 lg:grid-cols-12 gap-[20px] md:mx-[70px] pt-20 text-pblue'>
       <div className='bg-rblack col-span-4 h-[775px] rounded-[16px] mt-20'>
         <div className='flex flex-col items-center'>
-          <img src={Skye} alt='Me' className='w-[200px] -mt-[50px] bg-gray rounded-lg'/>
-          <div className='text-5xl my-2'>SkyeGee</div>
-          <div className='text-2xl bg-pink my-2 p-2 rounded-lg text-white'>Web-3 Enthusiast</div>
+          <img src={Me} alt='Me' className='w-[200px] -mt-[50px] bg-gray rounded-lg'/>
+          <div className='text-5xl my-2'>Scott Bui</div>
+          <div className='text-2xl bg-gray my-2 p-2 rounded-lg text-white'>Front-End Developer</div>
+          <div className='flex flex-row my-2'>
+            <a href="https://www.linkedin.com/in/scottngocbui/" target='_blank' rel='noopener noreferrer' className='mx-2 p-2 bg-gray rounded-lg hover:bg-blue hover:text-gray transition ease'><BiLogoLinkedin size='20'/></a>
+            <a href="https://github.com/scottngocbui" target='_blank' rel='noopener noreferrer' className='mx-2 p-2 bg-gray rounded-lg hover:bg-blue hover:text-gray transition ease'><BsGithub size='20'/></a>
+          </div>
           <div className='grid grid-cols-1 divide-y border-2 py-2 px-4 lg:px-8 rounded-lg my-2'>
             <div className='flex items-center pb-2'>
               <span className='p-2 bg-gray rounded-lg mr-4'><BsPhone size='30'/></span>
               <div className='flex flex-col justify-center items-left'>
-                <p>Youtube</p>
+                <p>Phone</p>
                 <p>267-968-0320</p>
               </div>
             </div>
             <div className='flex items-center py-2'>
               <span className='p-2 bg-gray rounded-lg mr-4'><IoLocationOutline size='30'/></span>
               <div className='flex flex-col justify-center items-left'>
-                <p>Twitter</p>
+                <p>Location</p>
                 <p>Philadelphia, PA</p>
               </div>
             </div>
             <div className='flex items-center py-2'>
               <span className='p-2 bg-gray rounded-lg mr-4'><MdOutlineEmail size='30'/></span>
               <div className='flex flex-col justify-center items-left'>
-                <p>Tiktok</p>
+                <p>Email</p>
                 <p>scottngocbui@gmail.com</p>
               </div>
             </div>
@@ -96,4 +102,4 @@ const SkyeGee = () => {
   )
 }
 
-export default SkyeGee
+export default ScottBui
