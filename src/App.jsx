@@ -38,7 +38,7 @@ const App = () => {
             <div className='text-2xl bg-gray my-2 p-2 rounded-lg text-white'>Front-End Developer</div>
             <div className='flex flex-row my-2'>
               <a href="https://www.linkedin.com/in/scottngocbui/" target='_blank' rel='noopener noreferrer' className='mx-2 p-2 bg-gray rounded-lg hover:bg-blue hover:text-gray transition ease'><BiLogoLinkedin size='20'/></a>
-              <a href="https://github.com/scottngocbui" target='_blank' rel='noopener noreferrer' className='mx-2 p-2 bg-gray rounded-lg hover:bg-blue hover:text-gray transition ease'><BsGithub size='20'/></a>
+              <a href="https://github.com/SkyeGeeDev" target='_blank' rel='noopener noreferrer' className='mx-2 p-2 bg-gray rounded-lg hover:bg-blue hover:text-gray transition ease'><BsGithub size='20'/></a>
             </div>
             <div className='grid grid-cols-1 divide-y border-2 py-2 px-4 lg:px-8 rounded-lg my-2'>
               <div className='flex items-center pb-2'>
