@@ -62,13 +62,6 @@ const App = () => {
                   <p>scottngocbui@gmail.com</p>
                 </div>
               </div>
-              <div className='flex items-center py-2'>
-                <span className='p-2 bg-gray rounded-lg mr-4'><FaBirthdayCake size='30'/></span>
-                <div className='flex flex-col justify-center items-left'>
-                  <p>Birthday</p>
-                  <p>September 27, 1995</p>
-                </div>
-              </div>
             </div>
             <div className='mt-2'>
               <a href={Resume} download='Scott Bui Resume.pdf' target='_blank' rel='noopener noreferrer' className="cursor-pointer reg-text relative flex shrink items-center justify-center p-4 px-6 py-3 overflow-hidden transition duration-300 ease-out border-2 rounded-[16px] group">
