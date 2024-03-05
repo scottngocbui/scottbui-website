@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.72334729.css",
-    "main.js": "/static/js/main.b81cfa86.js",
+    "main.js": "/static/js/main.c99b520e.js",
     "static/media/azukipxn.png": "/static/media/azukipxn.c5db53a030429695de1b.png",
     "static/media/me1.png": "/static/media/me1.50b760d1e5f4ba0c5533.png",
-    "static/media/Scott Bui Resume.pdf": "/static/media/Scott Bui Resume.faf71b8761020ad2a407.pdf",
+    "static/media/Scott Bui Resume.pdf": "/static/media/Scott Bui Resume.6f94ebb285779c5312c5.pdf",
     "index.html": "/index.html",
     "main.72334729.css.map": "/static/css/main.72334729.css.map",
-    "main.b81cfa86.js.map": "/static/js/main.b81cfa86.js.map"
+    "main.c99b520e.js.map": "/static/js/main.c99b520e.js.map"
   },
   "entrypoints": [
     "static/css/main.72334729.css",
-    "static/js/main.b81cfa86.js"
+    "static/js/main.c99b520e.js"
   ]
 }
